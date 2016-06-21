@@ -64,6 +64,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="RTH-Df-KsL">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TG1-bf-aWZ" customClass="VTKaraokeLyricPlayerView" customModule="VTKaraokeView" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="535" width="600" height="65"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -73,15 +76,27 @@
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2Qc-Vk-JlL">
                                 <rect key="frame" x="14" y="497" width="572" height="31"/>
+                                <color key="tintColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="sliderDidChange:" destination="PTV-3A-gS7" eventType="valueChanged" id="KPj-dE-VIW"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8B-06-Epc">
-                                <rect key="frame" x="285" y="445" width="30" height="30"/>
+                                <rect key="frame" x="260" y="440" width="80" height="35"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.51372549020000002" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Kzv-SD-e4z"/>
+                                    <constraint firstAttribute="height" constant="35" id="kRJ-zC-saR"/>
+                                </constraints>
                                 <state key="normal" title="Play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="tooglePlayStop:" destination="PTV-3A-gS7" eventType="touchUpInside" id="5ub-1F-11d"/>
                                 </connections>
@@ -90,13 +105,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TG1-bf-aWZ" firstAttribute="top" secondItem="2Qc-Vk-JlL" secondAttribute="bottom" constant="8" id="0Ix-jl-Twe"/>
+                            <constraint firstItem="RTH-Df-KsL" firstAttribute="top" secondItem="6GZ-PI-DUw" secondAttribute="bottom" id="3sR-j4-XdA"/>
                             <constraint firstAttribute="trailing" secondItem="TG1-bf-aWZ" secondAttribute="trailing" id="3tY-4D-kvb"/>
+                            <constraint firstAttribute="trailing" secondItem="RTH-Df-KsL" secondAttribute="trailing" id="DQv-II-CJU"/>
                             <constraint firstAttribute="centerX" secondItem="U8B-06-Epc" secondAttribute="centerX" id="ION-Id-IHc"/>
                             <constraint firstAttribute="trailing" secondItem="2Qc-Vk-JlL" secondAttribute="trailing" constant="16" id="J08-77-HYJ"/>
                             <constraint firstItem="TG1-bf-aWZ" firstAttribute="leading" secondItem="PPP-wy-1vC" secondAttribute="leading" id="Pbf-LC-cSU"/>
                             <constraint firstItem="1C2-c3-8E8" firstAttribute="top" secondItem="TG1-bf-aWZ" secondAttribute="bottom" id="WGL-7i-Xch"/>
+                            <constraint firstItem="1C2-c3-8E8" firstAttribute="top" secondItem="RTH-Df-KsL" secondAttribute="bottom" id="Yem-8g-Bmd"/>
                             <constraint firstItem="2Qc-Vk-JlL" firstAttribute="leading" secondItem="PPP-wy-1vC" secondAttribute="leading" constant="16" id="h4L-dI-H8P"/>
                             <constraint firstItem="2Qc-Vk-JlL" firstAttribute="top" secondItem="U8B-06-Epc" secondAttribute="bottom" constant="22" id="kMA-7P-l5Y"/>
+                            <constraint firstItem="RTH-Df-KsL" firstAttribute="leading" secondItem="PPP-wy-1vC" secondAttribute="leading" id="n3M-GS-bu2"/>
                         </constraints>
                     </view>
                     <connections>
@@ -161,4 +180,7 @@
             <point key="canvasLocation" x="321" y="419"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="185" height="239"/>
+    </resources>
 </document>

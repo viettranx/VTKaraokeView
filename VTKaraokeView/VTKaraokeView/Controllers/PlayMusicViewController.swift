@@ -9,19 +9,6 @@
 import UIKit
 import AVFoundation
 
-final class ScreenDetector {
-    
-    static let shareInstance = ScreenDetector()
-    
-    var isIphone4: Bool {
-        return UIScreen.mainScreen().bounds.size.height < 400
-    }
-}
-
-
-
-
-
 class PlayMusicViewController: UIViewController {
     
     var songURL:NSURL?
@@ -61,8 +48,8 @@ class PlayMusicViewController: UIViewController {
         self.title = self.lyric?.title
     }
     
-    override func viewDidDisappear(animated: Bool) {
-        super.viewDidDisappear(animated)
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
         stopAll()
     }
     
