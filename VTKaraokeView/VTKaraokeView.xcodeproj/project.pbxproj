@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC38A0D91D194DCB00898A6F /* TryKy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC38A0D81D194DCB00898A6F /* TryKy.mp3 */; };
+		FC38A0DB1D194E3700898A6F /* tri_ky.lrc in Resources */ = {isa = PBXBuildFile; fileRef = FC38A0DA1D194E3700898A6F /* tri_ky.lrc */; };
+		FC41765F1D16CF5600C30BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41765E1D16CF5600C30BC5 /* AppDelegate.swift */; };
+		FC4176641D16CF5600C30BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4176621D16CF5600C30BC5 /* Main.storyboard */; };
+		FC4176661D16CF5600C30BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4176651D16CF5600C30BC5 /* Assets.xcassets */; };
+		FC4176691D16CF5600C30BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4176671D16CF5600C30BC5 /* LaunchScreen.storyboard */; };
+		FC4176721D16D07400C30BC5 /* VTKaraokeLyricLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4176711D16D07400C30BC5 /* VTKaraokeLyricLabel.swift */; };
+		FC4176741D16F3D000C30BC5 /* VTKaraokeLyric.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4176731D16F3D000C30BC5 /* VTKaraokeLyric.swift */; };
+		FC4176761D16F54100C30BC5 /* VTKaraokeLyricParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4176751D16F54100C30BC5 /* VTKaraokeLyricParser.swift */; };
+		FC4176781D17824D00C30BC5 /* VTKaraokeLyricPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4176771D17824D00C30BC5 /* VTKaraokeLyricPlayerView.swift */; };
+		FCDECA171D17E7FF001B427E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDECA161D17E7FF001B427E /* RootViewController.swift */; };
+		FCDECA231D18DCEB001B427E /* MusicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDECA221D18DCEB001B427E /* MusicItem.swift */; };
+		FCDECA251D18E2D5001B427E /* PlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDECA241D18E2D5001B427E /* PlayMusicViewController.swift */; };
+		FCDECA271D192C7C001B427E /* that_tinh.lrc in Resources */ = {isa = PBXBuildFile; fileRef = FCDECA261D192C7C001B427E /* that_tinh.lrc */; };
+		FCDECA291D1938F9001B427E /* ThatTinh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCDECA281D1938F9001B427E /* ThatTinh.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC38A0D81D194DCB00898A6F /* TryKy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TryKy.mp3; sourceTree = "<group>"; };
+		FC38A0DA1D194E3700898A6F /* tri_ky.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tri_ky.lrc; sourceTree = "<group>"; };
+		FC41765B1D16CF5600C30BC5 /* VTKaraokeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTKaraokeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC41765E1D16CF5600C30BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC4176631D16CF5600C30BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC4176651D16CF5600C30BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4176681D16CF5600C30BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC41766A1D16CF5600C30BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4176711D16D07400C30BC5 /* VTKaraokeLyricLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTKaraokeLyricLabel.swift; sourceTree = "<group>"; };
+		FC4176731D16F3D000C30BC5 /* VTKaraokeLyric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTKaraokeLyric.swift; sourceTree = "<group>"; };
+		FC4176751D16F54100C30BC5 /* VTKaraokeLyricParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTKaraokeLyricParser.swift; sourceTree = "<group>"; };
+		FC4176771D17824D00C30BC5 /* VTKaraokeLyricPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTKaraokeLyricPlayerView.swift; sourceTree = "<group>"; };
+		FCDECA161D17E7FF001B427E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FCDECA221D18DCEB001B427E /* MusicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicItem.swift; sourceTree = "<group>"; };
+		FCDECA241D18E2D5001B427E /* PlayMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMusicViewController.swift; sourceTree = "<group>"; };
+		FCDECA261D192C7C001B427E /* that_tinh.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = that_tinh.lrc; sourceTree = "<group>"; };
+		FCDECA281D1938F9001B427E /* ThatTinh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ThatTinh.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4176581D16CF5600C30BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4176521D16CF5600C30BC5 = {
+			isa = PBXGroup;
+			children = (
+				FC41765D1D16CF5600C30BC5 /* VTKaraokeView */,
+				FC41765C1D16CF5600C30BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC41765C1D16CF5600C30BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC41765B1D16CF5600C30BC5 /* VTKaraokeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC41765D1D16CF5600C30BC5 /* VTKaraokeView */ = {
+			isa = PBXGroup;
+			children = (
+				FC41765E1D16CF5600C30BC5 /* AppDelegate.swift */,
+				FCDECA221D18DCEB001B427E /* MusicItem.swift */,
+				FCDECA151D17E7AC001B427E /* Controllers */,
+				FC4176701D16CFD300C30BC5 /* Libs */,
+				FCDECA181D17EA68001B427E /* Lyrics */,
+				FCDECA1B1D17EA68001B427E /* Music Files */,
+				FC4176621D16CF5600C30BC5 /* Main.storyboard */,
+				FC4176651D16CF5600C30BC5 /* Assets.xcassets */,
+				FC4176671D16CF5600C30BC5 /* LaunchScreen.storyboard */,
+				FC41766A1D16CF5600C30BC5 /* Info.plist */,
+			);
+			path = VTKaraokeView;
+			sourceTree = "<group>";
+		};
+		FC4176701D16CFD300C30BC5 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FC4176711D16D07400C30BC5 /* VTKaraokeLyricLabel.swift */,
+				FC4176731D16F3D000C30BC5 /* VTKaraokeLyric.swift */,
+				FC4176751D16F54100C30BC5 /* VTKaraokeLyricParser.swift */,
+				FC4176771D17824D00C30BC5 /* VTKaraokeLyricPlayerView.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		FCDECA151D17E7AC001B427E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCDECA161D17E7FF001B427E /* RootViewController.swift */,
+				FCDECA241D18E2D5001B427E /* PlayMusicViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCDECA181D17EA68001B427E /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				FC38A0DA1D194E3700898A6F /* tri_ky.lrc */,
+				FCDECA261D192C7C001B427E /* that_tinh.lrc */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		FCDECA1B1D17EA68001B427E /* Music Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC38A0D81D194DCB00898A6F /* TryKy.mp3 */,
+				FCDECA281D1938F9001B427E /* ThatTinh.mp3 */,
+			);
+			path = "Music Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC41765A1D16CF5600C30BC5 /* VTKaraokeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC41766D1D16CF5600C30BC5 /* Build configuration list for PBXNativeTarget "VTKaraokeView" */;
+			buildPhases = (
+				FC4176571D16CF5600C30BC5 /* Sources */,
+				FC4176581D16CF5600C30BC5 /* Frameworks */,
+				FC4176591D16CF5600C30BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTKaraokeView;
+			productName = VTKaraokeView;
+			productReference = FC41765B1D16CF5600C30BC5 /* VTKaraokeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4176531D16CF5600C30BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = idea;
+				TargetAttributes = {
+					FC41765A1D16CF5600C30BC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FC4176561D16CF5600C30BC5 /* Build configuration list for PBXProject "VTKaraokeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4176521D16CF5600C30BC5;
+			productRefGroup = FC41765C1D16CF5600C30BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC41765A1D16CF5600C30BC5 /* VTKaraokeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4176591D16CF5600C30BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4176691D16CF5600C30BC5 /* LaunchScreen.storyboard in Resources */,
+				FC4176661D16CF5600C30BC5 /* Assets.xcassets in Resources */,
+				FC38A0D91D194DCB00898A6F /* TryKy.mp3 in Resources */,
+				FC4176641D16CF5600C30BC5 /* Main.storyboard in Resources */,
+				FCDECA271D192C7C001B427E /* that_tinh.lrc in Resources */,
+				FCDECA291D1938F9001B427E /* ThatTinh.mp3 in Resources */,
+				FC38A0DB1D194E3700898A6F /* tri_ky.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4176571D16CF5600C30BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4176721D16D07400C30BC5 /* VTKaraokeLyricLabel.swift in Sources */,
+				FC4176781D17824D00C30BC5 /* VTKaraokeLyricPlayerView.swift in Sources */,
+				FCDECA231D18DCEB001B427E /* MusicItem.swift in Sources */,
+				FCDECA171D17E7FF001B427E /* RootViewController.swift in Sources */,
+				FC4176761D16F54100C30BC5 /* VTKaraokeLyricParser.swift in Sources */,
+				FC4176741D16F3D000C30BC5 /* VTKaraokeLyric.swift in Sources */,
+				FCDECA251D18E2D5001B427E /* PlayMusicViewController.swift in Sources */,
+				FC41765F1D16CF5600C30BC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC4176621D16CF5600C30BC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4176631D16CF5600C30BC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4176671D16CF5600C30BC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4176681D16CF5600C30BC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC41766B1D16CF5600C30BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC41766C1D16CF5600C30BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC41766E1D16CF5600C30BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VTKaraokeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideavn.VTKaraokeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC41766F1D16CF5600C30BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VTKaraokeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideavn.VTKaraokeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4176561D16CF5600C30BC5 /* Build configuration list for PBXProject "VTKaraokeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC41766B1D16CF5600C30BC5 /* Debug */,
+				FC41766C1D16CF5600C30BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC41766D1D16CF5600C30BC5 /* Build configuration list for PBXNativeTarget "VTKaraokeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC41766E1D16CF5600C30BC5 /* Debug */,
+				FC41766F1D16CF5600C30BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4176531D16CF5600C30BC5 /* Project object */;
+}
